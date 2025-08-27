@@ -52,7 +52,7 @@ function BodyStructure(){
             <div className = 'col-8 mt-5 d-flex justify-content-center'>
                 <div className='row'>                    
                     {arrayOfObject.map((Card)=>(
-                        <div className='col-12 col-md-6 col-xxl-3  d-flex justify-content-center'>
+                        <div className='col-12 col-md-6 col-xxl-3 d-flex justify-content-center mb-3'>
                             <CardStructure title={Card.title} img={Card.img} alt={Card.alt} description={Card.description} link={Card.link}/>
                         </div>
                     ))}
